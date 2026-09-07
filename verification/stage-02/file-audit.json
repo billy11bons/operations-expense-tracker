@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-09-07T17:21:54.702493+00:00",
+  "source_files": [
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\FGIp07_ Трекер_Задач_Рабочая_Тетрадь.docx",
+      "unchanged": true,
+      "sha256": "6EB666B1261CA2AAFE57991330CD523E85E0E041B3878C75BF7E568EB3ED465D"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ.zip",
+      "unchanged": true,
+      "sha256": "34958B3DBD0252DC1FD767475AB183E49F0D1EB7D87666DFF3903A60A55D575F"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Orders_Database.xlsx",
+      "unchanged": true,
+      "sha256": "73BC48BD0E9B8A5588036DC8A93CC9E6C2E54655D5D88111E1C93B5C8BF90288"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\01_operations_expense_tracker_codex.md",
+      "unchanged": true,
+      "sha256": "51A5677CA38715B3009EFB801F2CF08F3346F1C563A77A3C558A59ECC9D48AB9"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\02_personal_expense_tracker_codex.md",
+      "unchanged": true,
+      "sha256": "6834A093D3B4574EDDA579A903FB5AEA7B2EB63103A971F9542436D43B31348E"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\03_habit_tracker_mobile_codex.md",
+      "unchanged": true,
+      "sha256": "29BBAC979E710B95CB67DF3303887CA9607869E0040C297500E53C0D448D571B"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\04_habitloop_fullstack_codex.md",
+      "unchanged": true,
+      "sha256": "ADBCCC4B4A4809D3082258CD54244567F2841BFA8531A196FBFE67315D029A47"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\05_multicompany_ocr_tracker_codex.md",
+      "unchanged": true,
+      "sha256": "0D4B864268AE859D02617C8E1F15AB42B97F9C15C76B53113CA77BB3E6D02508"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Tracker_Codex_TZ\\README.md",
+      "unchanged": true,
+      "sha256": "8D6BE3FEF780870710EABB18F243D84AF1655C247F08779D7FABE26DD172DEDB"
+    },
+    {
+      "path": "E:\\Prompt\\Freelance\\Trecker\\Case_01_Operations_Expense_Tracker\\TZ_CASE_01_v1.md",
+      "unchanged": true,
+      "sha256": "F9D9DE215A97E9A54BA2142D5F58477CB7E50879E63C6C67E314208298DC549F"
+    }
+  ],
+  "unexpected_root_entries": [],
+  "source_archive_files": [
+    "app/.gitignore",
+    "app/.npmrc",
+    "app/AGENTS.md",
+    "app/CLAUDE.md",
+    "app/next-env.d.ts",
+    "app/next.config.ts",
+    "app/package-lock.json",
+    "app/package.json",
+    "app/postcss.config.mjs",
+    "app/scripts/smoke.mjs",
+    "app/src/app/expenses/page.tsx",
+    "app/src/app/globals.css",
+    "app/src/app/icon.svg",
+    "app/src/app/layout.tsx",
+    "app/src/app/page.tsx",
+    "app/src/app/settings/page.tsx",
+    "app/src/app/tasks/page.tsx",
+    "app/src/components/dialog.tsx",
+    "app/src/components/expense-form.tsx",
+    "app/src/components/shell.tsx",
+    "app/src/components/store-provider.tsx",
+    "app/src/components/task-form.tsx",
+    "app/src/lib/domain.ts",
+    "app/tests/domain.test.ts",
+    "app/tsconfig.json"
+  ],
+  "source_archive_sha256": "e83411ef85a022ab6475b47ba8ba84d1a3d5b5322c882bab154e70921e02b8da",
+  "app_files_outside_case": []
+}

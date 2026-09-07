@@ -1,0 +1,26 @@
+{
+  "at": "2026-09-07T17:16:12.070Z",
+  "results": [
+    {
+      "name": "First load, demo data and Dashboard",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense create, edit, reload and weekly total",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense deletion cancellation and confirmation",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense filters and reset",
+      "result": "FAIL",
+      "error": "locator.selectOption: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Category', { exact: true })\u001b[22m\n"
+    }
+  ],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "scope": "Stage 2 smoke; not full stage 3 acceptance"
+}

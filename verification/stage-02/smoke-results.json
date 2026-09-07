@@ -1,0 +1,47 @@
+{
+  "at": "2026-09-07T17:18:23.342Z",
+  "results": [
+    {
+      "name": "First load, demo data and Dashboard",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense create, edit, reload and weekly total",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense deletion cancellation and confirmation",
+      "result": "PASS"
+    },
+    {
+      "name": "Expense filters and reset",
+      "result": "PASS"
+    },
+    {
+      "name": "Task create, edit, status and delete",
+      "result": "PASS"
+    },
+    {
+      "name": "Task filters and Pending / overdue labels",
+      "result": "PASS"
+    },
+    {
+      "name": "Category create and availability after reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Basic form validation",
+      "result": "PASS"
+    },
+    {
+      "name": "Mobile routes and form fit at 390px",
+      "result": "PASS"
+    },
+    {
+      "name": "No runtime or console errors in smoke flow",
+      "result": "PASS"
+    }
+  ],
+  "consoleErrors": [],
+  "scope": "Stage 2 smoke; not full stage 3 acceptance"
+}

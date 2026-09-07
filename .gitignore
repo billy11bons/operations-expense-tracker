@@ -1,0 +1,11 @@
+app/node_modules/
+app/.next/
+app/.next-dev/
+app/.npm-cache/
+app/.browser-temp/
+app/*.tsbuildinfo
+verification/**/runtime-temp/
+verification/**/*.log
+*.env
+*.env.*
+!.env.example

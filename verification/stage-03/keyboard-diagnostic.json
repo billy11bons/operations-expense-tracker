@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-07T21:56:44.442Z",
+  "initial": {
+    "id": "",
+    "tag": "BUTTON",
+    "label": "Close dialog",
+    "inDialog": true
+  },
+  "firstTab": {
+    "id": "description",
+    "tag": "INPUT",
+    "label": null,
+    "inDialog": true
+  },
+  "afterEscape": {
+    "id": "",
+    "tag": "BODY",
+    "label": null,
+    "inDialog": false
+  },
+  "expectedReturn": "+ Add expense",
+  "issue": "Focus does not return to the trigger after Escape; no records changed."
+}
