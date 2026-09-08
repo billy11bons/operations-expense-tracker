@@ -48,13 +48,14 @@
 
 **Результат:** README.md создан. Production build, typecheck и domain tests выполнены после оформления. Публикация и внешняя отправка не выполнялись.
 
-## Шаг 5. ФИНАЛЬНАЯ ПРОВЕРКА И ФИКСАЦИЯ
+## Шаг 5. ЭТАП 6 — GITHUB И PRODUCTION DEPLOYMENT
 
-- `npm test`: 6/6 PASS; `npm run typecheck`: PASS; `npm run build`: PASS.
-- `.gitignore` проверен, временные runtime-файлы/логи исключены из Git.
-- Локальный commit: `ff179aa Build operations and expense tracker MVP`.
-- GitHub/public URL: **Не завершено** — в окружении нет GitHub CLI и авторизованного remote/hosting-подключения.
-- Local URL: `http://127.0.0.1:3000`.
+- **GitHub:** https://github.com/billy11bons/operations-expense-tracker
+- **Production:** https://operations-expense-tracker.netlify.app
+- **Проблема deployment 404:** Netlify UI не применил Runtime = Next.js; одновременно Base/Package/Publish/Functions были заданы с конфликтующими префиксами. Поэтому `.next` оказался опубликованным как обычная папка без Next.js runtime routing.
+- **Решение:** в Netlify UI выбран Runtime = Next.js и исправлены пути на относительные для `app`. После этого Netlify начал обслуживать маршруты через Next.js runtime, и production URL стал рабочим.
+- **Git:** `main` синхронизирована с `origin/main`; commit `12fe765beda8f93c531ae7a09c6478e72698c30e`.
+- **Статус:** Stage 6 завершён. Stage 7 не начинался.
 
 ## Шаг 2. СБОРКА MVP В OPENCODE / CODEX
 
